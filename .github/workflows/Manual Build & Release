@@ -70,7 +70,7 @@
 #       - name: Upload Github Assets
 #         uses: softprops/action-gh-release@v1
 #         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
 #         with:
 #           name: qBittorrent-${{ steps.set-version.outputs.version }}
 #           tag_name: ${{ steps.set-version.outputs.version }}
